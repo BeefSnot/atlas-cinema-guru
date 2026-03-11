@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  --clr-bg: #00003c;
+  --clr-primary: #00003c;
+  --clr-secondary: #1a1a5e;
+  --clr-accent: #4ade80;
+  --clr-highlight: #f59e0b;
+  --clr-text: #e2e8f0;
+  --clr-muted: #94a3b8;
+  --clr-card: #0f0f4a;
+  --clr-border: #2d2d7a;
+}
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--clr-secondary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--clr-border);
+  border-radius: 3px;
+}
+
+/* Card hover effect */
+.title-card:hover .title-overlay {
+  opacity: 1;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
