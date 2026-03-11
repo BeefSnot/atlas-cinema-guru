@@ -15,42 +15,111 @@ const GENRES = [
 ];
 
 const TITLES = [
-  { title: "Galactic Wanderers", synopsis: "A crew of astronauts embarks on a perilous journey beyond the Milky Way.", released: 2023, genre: "Sci-Fi" },
-  { title: "The Laughing Detective", synopsis: "A bumbling detective accidentally solves every case he stumbles into.", released: 2022, genre: "Comedy" },
-  { title: "Midnight Shadows", synopsis: "A family moves into a Victorian mansion haunted by its dark past.", released: 2021, genre: "Horror" },
-  { title: "Echoes of Tomorrow", synopsis: "A physicist discovers a way to send messages to her past self.", released: 2023, genre: "Sci-Fi" },
-  { title: "The Last Samurai's Garden", synopsis: "An aging warrior finds peace tending to a secret garden.", released: 2020, genre: "Drama" },
-  { title: "Neon Heist", synopsis: "A team of thieves plans the ultimate robbery in a cyberpunk city.", released: 2023, genre: "Action" },
-  { title: "Whispers in the Fog", synopsis: "A detective navigates a city shrouded in mystery and deception.", released: 2022, genre: "Mystery" },
-  { title: "Dragon's Oath", synopsis: "A young mage bonds with the last dragon to save their kingdom.", released: 2021, genre: "Fantasy" },
-  { title: "Love in Translation", synopsis: "Two strangers connect over a shared love of languages in Paris.", released: 2023, genre: "Romance" },
-  { title: "Iron Circuit", synopsis: "A rogue AI must choose between its creators and humanity.", released: 2022, genre: "Thriller" },
-  { title: "The Great Bamboo Caper", synopsis: "A panda family goes on a hilarious quest to save their forest.", released: 2023, genre: "Animation" },
-  { title: "Crimson Tide Rising", synopsis: "A marine biologist uncovers a conspiracy threatening the oceans.", released: 2021, genre: "Drama" },
-  { title: "Starfall Chronicles", synopsis: "Alien refugees arrive on Earth seeking asylum and new beginnings.", released: 2023, genre: "Sci-Fi" },
-  { title: "The Prank War", synopsis: "Office rivals escalate their pranks until things spiral out of control.", released: 2022, genre: "Comedy" },
-  { title: "Grave Silence", synopsis: "A journalist investigates a series of mysterious disappearances.", released: 2021, genre: "Horror" },
-  { title: "Velocity", synopsis: "An ex-racer must outrun a criminal syndicate across three continents.", released: 2023, genre: "Action" },
-  { title: "The Clockmaker's Secret", synopsis: "A young apprentice discovers her master's timepieces hold magical powers.", released: 2022, genre: "Fantasy" },
-  { title: "Hearts Across the Divide", synopsis: "A long-distance romance is tested when one partner gets a dream job abroad.", released: 2023, genre: "Romance" },
-  { title: "Cold Case Files: Redux", synopsis: "A retired detective is pulled back into a case she never solved.", released: 2021, genre: "Mystery" },
-  { title: "Phantom Protocol", synopsis: "A hacker uncovers a government conspiracy that puts her life in danger.", released: 2022, genre: "Thriller" },
-  { title: "Dino Rangers", synopsis: "A group of kids befriend dinosaurs to protect them from poachers.", released: 2023, genre: "Animation" },
-  { title: "The Weight of Mountains", synopsis: "A climber reflects on life and loss during a solo Everest ascent.", released: 2022, genre: "Drama" },
-  { title: "Orbit Breakers", synopsis: "Rival space stations compete to mine the most valuable asteroid.", released: 2021, genre: "Sci-Fi" },
-  { title: "Belly Laughs", synopsis: "A stand-up comedian's life unravels on the night of his biggest show.", released: 2023, genre: "Comedy" },
-  { title: "The Siren's Call", synopsis: "Sailors are lured to a mysterious island by an enchanting melody.", released: 2022, genre: "Horror" },
-  { title: "Desert Storm Rising", synopsis: "Special forces race against time to prevent a terrorist attack.", released: 2023, genre: "Action" },
-  { title: "The Ember Crown", synopsis: "A princess must unite warring kingdoms before an ancient evil returns.", released: 2022, genre: "Fantasy" },
-  { title: "Second Chances", synopsis: "Two divorcees find unexpected love at a weekend retreat.", released: 2021, genre: "Romance" },
-  { title: "The Missing Hour", synopsis: "A detective tries to reconstruct events from a single missing hour.", released: 2023, genre: "Mystery" },
-  { title: "Zero Day", synopsis: "A cybersecurity expert has 24 hours to stop a global infrastructure attack.", released: 2022, genre: "Thriller" },
-  { title: "Pixel Pals", synopsis: "Video game characters escape their world and explore the real one.", released: 2023, genre: "Animation" },
-  { title: "The River Between", synopsis: "Two families on opposite banks of a river are torn apart by a flood.", released: 2021, genre: "Drama" },
-  { title: "Quantum Rift", synopsis: "Scientists accidentally open a portal to a parallel dimension.", released: 2023, genre: "Sci-Fi" },
-  { title: "The Chef's Disaster", synopsis: "A world-class chef's restaurant opening goes spectacularly wrong.", released: 2022, genre: "Comedy" },
-  { title: "Blackwood Manor", synopsis: "A group of paranormal investigators spend a night in a cursed manor.", released: 2023, genre: "Horror" },
-  { title: "Thunder Road", synopsis: "A motorbike gang protects a small town from a criminal empire.", released: 2021, genre: "Action" },
+  {
+    title: "Toy Story",
+    synopsis: "A cowboy doll is profoundly threatened and jealous when a new spaceman figure supplants him as top toy in a boy's room.",
+    released: 1995,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BMDU2ZWJlMjktMTRhMy00ZTA5LWEzNDgwNjRmNzC4xZmNmZGUxXkEyXkFqcGdeQXVyNDMwNjAzNjQ@._V1_SX300.jpg"
+  },
+  {
+    title: "Finding Nemo",
+    synopsis: "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    released: 2003,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BgWEwNjQ4ZWMtZWFkMi00ZDNiLTk2ZmUtZThhZWExMTg0ZGIZXkEyXkFqcGc@._V1_SX300.jpg"
+  },
+  {
+    title: "The Incredibles",
+    synopsis: "While trying to lead a quiet suburban life, a family of undercover superheroes are forced into action to save the world.",
+    released: 2004,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BMTY5OTU0OTc2NV5BMl5BanBnXkFtZTcwMzU4MDcyMQ@@._V1_SX300.jpg"
+  },
+  {
+    title: "Up",
+    synopsis: "78-year-old Carl Fredricksen travels to Paradise Falls in his house equipped with balloons, inadvertently taking a young stowaway.",
+    released: 2009,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BMTk3NDE2NzI4NF5BMl5BanBnXkFtZTgwNzE1MzEyMTE@._V1_SX300.jpg"
+  },
+  {
+    title: "WALL·E",
+    synopsis: "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    released: 2008,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BMjExMTg5OTU0NF5BMl5BanBnXkFtZTcwMjMxMzMzMw@@._V1_SX300.jpg"
+  },
+  {
+    title: "Monsters, Inc.",
+    synopsis: "In order to power the city, monsters have to scare children so that they shriek. However, the children are toxic to the monsters.",
+    released: 2001,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0OTE@._V1_SX300.jpg"
+  },
+  {
+    title: "The Maze Runner",
+    synopsis: "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow runners for a shot at escape.",
+    released: 2014,
+    genre: "Sci-Fi",
+    image: "https://m.media-amazon.com/images/M/MV5BMjUyNTA3MTAyM15BMl5BanBnXkFtZTgwOTEyMTkyMjE@._V1_SX300.jpg"
+  },
+  {
+    title: "Maze Runner: The Scorch Trials",
+    synopsis: "After having escaped the Maze, the Gladers now face a new set of challenges on the open roads of a desolate landscape filled with unimaginable obstacles.",
+    released: 2015,
+    genre: "Sci-Fi",
+    image: "https://m.media-amazon.com/images/M/MV5BMTA5NDMwNjAwMDJeQTJeQWpwZ15BbWU4MDUxOTEzODUz._V1_SX300.jpg"
+  },
+  {
+    title: "Maze Runner: The Death Cure",
+    synopsis: "Young hero Thomas embarks on a mission to find a cure for a deadly disease known as the Flare.",
+    released: 2018,
+    genre: "Sci-Fi",
+    image: "https://m.media-amazon.com/images/M/MV5BMTYyNzk3NDc4N15BMl5BanBnXkFtZTgwOTE1NjI3NDM@._V1_SX300.jpg"
+  },
+  {
+    title: "The Matrix",
+    synopsis: "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+    released: 1999,
+    genre: "Sci-Fi",
+    image: "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+  },
+  {
+    title: "Interstellar",
+    synopsis: "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+    released: 2014,
+    genre: "Sci-Fi",
+    image: "https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDMtY2FlYy00ZTk2LTg2YjEtY2ZkNjgyZmVhMDMxXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+  },
+  {
+    title: "Inception",
+    synopsis: "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    released: 2010,
+    genre: "Sci-Fi",
+    image: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+  },
+  {
+    title: "The Dark Knight",
+    synopsis: "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+    released: 2008,
+    genre: "Action",
+    image: "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0Nl5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_SX300.jpg"
+  },
+  {
+    title: "Avengers: Endgame",
+    synopsis: "After the devastating events of Infinity War, the Avengers assemble once more in order to reverse Thanos' actions.",
+    released: 2019,
+    genre: "Action",
+    image: "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg"
+  },
+  {
+    title: "Spider-Man: Into the Spider-Verse",
+    synopsis: "Teen Miles Morales becomes the Spider-Man of his universe, and must join with five spider-powered individuals from other dimensions to stop a threat for all realities.",
+    released: 2018,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BMjMwNDkxMTgzOF5BMl5BanBnXkFtZTgwNTkwNTQ3NjM@._V1_SX300.jpg"
+  }
 ];
 
 export async function GET() {
