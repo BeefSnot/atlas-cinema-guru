@@ -58,6 +58,90 @@ const TITLES = [
     image: "https://m.media-amazon.com/images/M/MV5BMTY1NTI0ODUyOF5BMl5BanBnXkFtZTgwNTEyNjQ0OTE@._V1_SX300.jpg"
   },
   {
+    title: "Inside Out",
+    synopsis: "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city.",
+    released: 2015,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BOTgxMDQwMDk0OF5BMl5BanBnXkFtZTgwNjU5OTg2NDE@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    title: "Coco",
+    synopsis: "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    released: 2017,
+    genre: "Animation",
+    image: "https://m.media-amazon.com/images/M/MV5BYjQ5NjM0Y2YtNDhlYy00NDU1LThlZGEtYTI3MTU5N2NjNjAxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    title: "SpongeBob SquarePants",
+    synopsis: "The misadventures of a talking sea sponge who works at a fast food restaurant, attends a boating school, and lives in an underwater pineapple.",
+    released: 1999,
+    genre: "Comedy",
+    image: "https://m.media-amazon.com/images/M/MV5BMGE5OTU5YmEtZDVmYi00YzM1LThlNTItZjAwYzg5Y2ExYmVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    title: "Schitt's Creek",
+    synopsis: "When rich video-store magnate Johnny Rose and his family suddenly find themselves broke, they are forced to leave their pampered lives to regroup in Schitt's Creek.",
+    released: 2015,
+    genre: "Comedy",
+    image: "https://m.media-amazon.com/images/M/MV5BNWQ1ZmM3MTQtNTVkZC00MTViLTgwYWUtYWNmYWZmZTczMjU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    title: "Belly Laughs",
+    synopsis: "A stand-up comedian's life unravels on the night of his biggest show.",
+    released: 2023,
+    genre: "Comedy",
+    image: "https://images.unsplash.com/photo-1585699324551-f6c309eedeca?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    title: "Blackwood Manor",
+    synopsis: "A group of paranormal investigators spend a night in a cursed manor.",
+    released: 2023,
+    genre: "Horror",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    title: "Desert Storm Rising",
+    synopsis: "Special forces race against time to prevent a terrorist attack.",
+    released: 2023,
+    genre: "Action",
+    image: "https://images.unsplash.com/photo-1508614589041-895b88991e3e?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    title: "Dino Rangers",
+    synopsis: "A group of kids befriend dinosaurs to protect them from poachers.",
+    released: 2023,
+    genre: "Animation",
+    image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    title: "Echoes of Tomorrow",
+    synopsis: "A physicist discovers a way to send messages to her past self.",
+    released: 2023,
+    genre: "Sci-Fi",
+    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    title: "Galactic Wanderers",
+    synopsis: "A crew of astronauts embarks on a perilous journey beyond the Milky Way.",
+    released: 2023,
+    genre: "Sci-Fi",
+    image: "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&q=80&w=600"
+  },
+  {
+    title: "The Conjuring",
+    synopsis: "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    released: 2013,
+    genre: "Horror",
+    image: "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    title: "A Nightmare on Elm Street",
+    synopsis: "The monstrous spirit of a slain child murderer seeks revenge by invading the dreams of teenagers whose parents were responsible for his untimely death.",
+    released: 1984,
+    genre: "Horror",
+    image: "https://m.media-amazon.com/images/M/MV5BNzFjZmM1ODgtMjc4Ni00ZWJiLWE0ZWMtODRjZmU3NmY2OGNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
     title: "The Maze Runner",
     synopsis: "Thomas is deposited in a community of boys after his memory is erased, soon learning they're all trapped in a maze that will require him to join forces with fellow runners for a shot at escape.",
     released: 2014,
@@ -98,6 +182,13 @@ const TITLES = [
     released: 2010,
     genre: "Sci-Fi",
     image: "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_SX300.jpg"
+  },
+  {
+    title: "Hugo",
+    synopsis: "In Paris in 1931, an orphan who lives in the walls of a train station is wrapped up in a mystery involving his late father and an automaton.",
+    released: 2011,
+    genre: "Drama",
+    image: "https://m.media-amazon.com/images/M/MV5BMjA5OTgxODA4M15BMl5BanBnXkFtZTcwMTcxOTM4Ng@@._V1_FMjpg_UX1000_.jpg"
   },
   {
     title: "The Dark Knight",
@@ -181,17 +272,14 @@ export async function GET() {
       )
     `);
 
-    // Seed titles if empty
-    const { rowCount } = await client.query("SELECT COUNT(*) FROM titles");
-    if (rowCount === 0 || (await client.query("SELECT COUNT(*) FROM titles")).rows[0].count === "0") {
-      for (const t of TITLES) {
-        const genreIndex = GENRES.indexOf(t.genre) + 1;
-        const imageNum = String(genreIndex).padStart(2, "0");
-        await client.query(
-          `INSERT INTO titles (title, synopsis, released, genre, image) VALUES ($1, $2, $3, $4, $5)`,
-          [t.title, t.synopsis, t.released, t.genre, `/images/genre-${imageNum}.jpg`]
-        );
-      }
+    // Clear existing titles to replace them with the new specific list
+    await client.query("DELETE FROM titles");
+
+    for (const t of TITLES) {
+      await client.query(
+        `INSERT INTO titles (title, synopsis, released, genre, image) VALUES ($1, $2, $3, $4, $5)`,
+        [t.title, t.synopsis, t.released, t.genre, t.image]
+      );
     }
 
     await client.query("COMMIT");
